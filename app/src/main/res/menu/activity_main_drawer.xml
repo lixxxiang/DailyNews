@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="图层选择">
+        <menu>
+            <item
+                    android:id="@+id/layer1"
+                    android:icon="@drawable/ic_menu_gallery"
+
+                    app:actionLayout="@layout/widget_check"
+                    android:title="天地图全球影像图层"
+            />
+            <item
+                    android:id="@+id/layer2"
+                    app:actionLayout="@layout/widget_check"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="天地图全球矢量图层"
+            />
+            <item
+                    android:id="@+id/layer3"
+                    app:actionLayout="@layout/widget_check"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="OSM全球矢量图层"
+            />
+
+        </menu>
+    </item>
+
+    <item android:title="用户信息">
+        <menu>
+            <item
+                    android:id="@+id/userInfo"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="个人中心"
+            />
+            <item
+                    android:id="@+id/order"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="我的订单"
+            />
+
+        </menu>
+    </item>
+
+    <item android:title="其他功能">
+        <menu>
+            <item
+            android:id="@+id/guide"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="使用教程"/>
+            <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="发送"/>
+        </menu>
+    </item>
+
+</menu>
